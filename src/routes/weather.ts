@@ -1,6 +1,5 @@
 import { FastifyInstance } from "fastify";
 import { z } from "zod";
-import { prisma } from "../lib/prisma";
 import { api } from "../lib/axios";
 
 export async function weatherRoutes(app: FastifyInstance) {
